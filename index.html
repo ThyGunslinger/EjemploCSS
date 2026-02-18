@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIS_L2_LandínezGarcíaJuanFernando.rar</title>
+    <style>
+        h3,h4{
+            text-align: center;
+            font-size: 220%;
+        }
+        #logo{
+            padding: 10px;
+        }
+        #Titulo-logo{
+            gap: 6px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 250%;
+            color: #ffffff
+        }
+        .grid-title{
+            display: grid;
+            grid-template-columns: 40% 60%;
+            border: 4px solid #000000;
+            background-color: #7cb9df;
+        }
+        .grid-doctors{
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            column-gap: 20px;
+        }
+        .grid-right{
+            text-align: right;
+            font-size: 210%;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border: 4px solid black;
+            background-color: #8fc28e;
+            padding: 10px;
+            border-radius: 8%;
+        }
+        .grid-center{
+            text-align: center;
+            font-size: 210%;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border: 4px solid black;
+            background-color: #7cb9dfbe;
+            border-radius: 8%;
+
+        }
+        .grid-left{
+            text-align: left;
+            font-size: 210%;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border: 4px solid black;
+            background-color: #9975AD;
+            padding: 10 px;
+            border-radius: 8%;
+        }
+        .img{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        button{
+            border: 2px solid black; margin-top: 15px; font-size: 24px; padding: 8px;
+        }
+        footer{
+            background-color: #9ac3dd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="grid-title">
+            
+            <div id="logo">
+                <img src="saludn.png" alt="Logo clínica" width="200" height="200">
+            </div>
+            <div id="Titulo-logo">
+                <h1>Médicos disponibles para citas</h1>
+            </div>
+        </div>
+        <hr>
+    </header>
+    <main>
+        <div class="grid-doctors">
+            <div class="grid-right">
+                <h2> Dr. Pedro</h2>
+                <br>
+                <p>25 años de experiencia, Acupunturista</p>
+                <p>Graduado de la universidad católica, mi enfoque es directo y rápido</p>
+                <p>10 a.m - 4p.m</p>
+                <div class="img">
+                    <img src="pedro.jpg", alt="Foto de Pepé" width="300" height="300">
+                    <button>Agendar cita</button>
+                </div>
+            </div>
+            <div class="grid-center">
+                <h2>Dr. Alberto</h2>
+                <br>
+                <p>30 años de experiencia, Quiropráctico</p>
+                <p>Graduado con honores de la universidad católica, mi enfoque es frio y calculado</p>
+                <p>10 a.m - 4 p.m</p>
+                <div class="img">
+                    <img src="alberto.jpg", alt="Foto de Epep" width="300" height="300">
+                    <button>Agendar cita</button>
+                </div>
+            </div>
+            <div class="grid-left">
+                <h2>Dra. Samantha</h2>
+                <br>
+                <p>20 años de experiencia, psicóloga</p>
+                <p>Graduada con honores de la universidad de Cambridge, mi enfoque es empatico y firme</p>
+                <p>10 a.m - 4 p.m</p>
+                <div class="img">
+                    <img src="samantha.jpg" alt="Foto de Samantha" width="300" height="300">
+                    <button>Agendar cita</button>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="grid-doctors">
+            <div class="grid-right">
+                <h2>Dr. Samuel</h2>
+                <br>
+                <p>10 años de experiencia, psicólogo</p>
+                <p>Graduado de la universidad de Bridgerton, mi enfoque es simpático y cálido</p>
+                <p>10 a.m - 4p.m</p>
+                <div class="img">
+                    <img src="samuel.jpg", alt="Foto de Samuel" width="300" height="300">
+                    <button>Agendar cita</button>
+                </div>
+            </div>
+            <div class="grid-center">
+                <h2>Dr. Roberto</h2>
+                <br>
+                <p>60 años de experiencia, nutricionista</p>
+                <p>Autodictada y graduado de la universidad Oxford, mi enfoque es cortante y firme</p>
+                <p>10 a.m - 4p.m</p>
+                <div class="img">
+                    <img src="roberto.jpg", alt="Foto de R. Sukuna" width="300" height="300">
+                    <button>Agendar cita</button>
+                </div>
+            </div>
+            <div class="grid-left">
+                <h2>Dr. Cesar</h2>
+                <br>
+                <p>50 años de experiencia, cirujano</p>
+                <p>Autodictada y graduado de la universidad Oxford, mi enfoque es meticuloso y profesional</p>
+                <p>10 a.m - 4 p.m</p>
+                <div class="img">
+                    <img src="cesar.jpg", alt="Foto de Kenny" width="300" height="300">
+                    <button>Agendar cita</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h3>Información</h3>
+        <h4>Somos una clínica para la salud contamos con mas de 50 especialistas</h4>
+        <p style="font-size: 220%;">Todos listos para darte una atención sin igual, trabajamos las 24 horas por la salud de nuestro paciente</p>
+    </footer>
+</body>
+</html>
